@@ -41,6 +41,8 @@ We recommend that one does not look into Analytics. It's mostly fuel for ego.
   - video (recommended: Youtube embedding)
   - music (recommended: Soundcloud embedding)
   - code sharing
+* Debug mode for developers
+* Optionally third party comment system (commento.io) 
 
 ## REQUIREMENTS
 
