@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*
+* CSS Document - Updated: 2022.05.13.
+* XML SITEMAP XSL STYLE
+* Copyright (c) 2022 NATURBLOG ENGINE
+* All rights reserved.
+* Design/Webdesign: CsAB
+*/
+
+body {
+	background: #222222;
+	color: #dddddd;
+	font: normal 11pt/16pt "Trebuchet MS", Tahoma, Verdana, Arial, Georgia;
+}
+
+a,
+a:visited {
+	color: #00ffbb;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #88ddff;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 1.25em;
+}
+
+table.tablesorter {
+	background: #222222;
+	margin: 10px 0pt 15px;
+	font-size: 9pt;
+	width: 100%;
+	text-align: left;
+}
+
+table.tablesorter thead tr th,
+table.tablesorter tfoot tr th {
+	background: #222222;
+	color: #FFFFFF;
+	border: 1px solid #777777;
+	font-size: 9pt;
+	padding: 4px;
+}
+
+table.tablesorter thead tr .header {
+	cursor: pointer;
+}
+
+table.tablesorter tbody td {
+	color: #f1f1f1;
+	padding: 1px;
+	background-color: #222222;
+	vertical-align: top;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color: #333333;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background: url('/view/css/bullet_arrow_down_black.png') no-repeat center right;
+}
+
+table.tablesorter thead tr .headerSortDown {
+	background: url('/view/css/bullet_arrow_up_black.png') no-repeat center right;
+}
+
+table.tablesorter thead tr .headerSortDown,
+table.tablesorter thead tr .headerSortUp {
+	background-color: #00ffbb;
+	color: #000000;
+	font-weight: bold;
+}
+
+.tc {
+	text-align: center;
+}
+
+/*EOF*/

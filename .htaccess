@@ -1,0 +1,35 @@
+# NATU'RBLOG engine
+# (c) CsAB 2022
+
+Options -Indexes 
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.naturblog\.brum$ [NC]
+RewriteRule ^(.*)$ http\:\/\/naturblog\.brum\/$1 [L,R=301] 
+
+# sitemap, rss, rss-orders
+RewriteRule ^sitemap.xml$ /sitemap [L,R=301]
+RewriteRule ^rss.xml$ /rss [L,R=301]
+
+RewriteRule !((\.(js|json|webmanifest|ico|gif|jpg|png|json|css|xml|xsl|html|ttf|eot|svg|woff|pdf|txt)$)|(download/)+) index.php
+
+ErrorDocument 404 /error404
+ErrorDocument 503 /error503.html
+ErrorDocument 500 /error500.html
+ErrorDocument 403 /error403.html
+
+<ifModule mod_expires.c>
+<Filesmatch "\.(jpg|jpeg|png|gif|js|css|swf|ico|woff|mp3)$">
+    ExpiresActive on
+    ExpiresDefault "access plus 2 days"
+</Filesmatch>
+</ifModule>
+
+<ifModule mod_headers.c>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)(\.gz)?$">
+Header set Expires "Fri, 10 Aug 2007 15:05:23 GMT"
+Header unset ETag
+FileETag None
+</FilesMatch>
+</ifModule>

@@ -1,0 +1,36 @@
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Bing
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# https://www.robotstxt.org/robotstxt.html
+#
+# For syntax checking, see:
+# https://technicalseo.com/tools/robots-txt/
+
+User-agent: *
+Crawl-delay: 10
+
+# Directories
+Disallow: /.svn/
+Disallow: /.git/
+
+# Files
+Disallow: /error500.html
+Disallow: /error503.html
+Disallow: /error403
+Disallow: /error404
+
+# Paths (clean URLs)
+Disallow: /admin/
+
+Sitemap: http://naturblog.brum/sitemap.xml
+
+#EOF#
