@@ -28,6 +28,7 @@ We recommend that one does not look into Analytics. It's mostly fuel for ego.
 * Tags, Tag Cloud
 * Changing articles font size
 * Light mode / Dark mode
+* Responsive (mobile and tablet friendly) front-end
 * Calculating posts reading time
 * Show posts' creation time and author's nickname
 * Copying and/or Sharing page URL
@@ -81,5 +82,36 @@ Make a new or edit an existing *.md file (in `model/posts/` folder) for blog pos
 * [AppServ](https://www.appserv.org/) - Simple package for programming (Apache + PHP + MySQL)
 * [PSPad](https://www.pspad.com/) - Code editor
 
+## SCREENSHOTS
+
+### Filtered Post by a Tag, Dark Mode, without Pagination, and Adult Content Alert.  
+
+![Filtered posts](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-filtered-posts.PNG)
+
+### Light Mode
+
+![Light Mode](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-light-mode.PNG)
+
+### Dark Mode
+
+![Dark Mode](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-dark-mode.PNG)
+
+### Footer navigation and Go to the Top button
+
+![Go to the Top](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-footer-go-to-the-top.PNG)
+
+### Font size, Light/Dark mode and RSS button
+
+![User friendly design](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-large-font-size.PNG)
+
+### Pagination First Page
+
+![Pagination First Page](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-paginator-dont-stop-now.PNG)
+
+### Pagination Last Page
+
+![Pagination First Page](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-paginator-last-page.PNG)
+
 ## LICENSE
+
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
