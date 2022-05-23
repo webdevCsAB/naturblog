@@ -14,6 +14,7 @@ We recommend that one does not look into Analytics. It's mostly fuel for ego.
 * No ads, zero tracking (no cookies for analytics or tracking)
 * 100% open source and FREE!
 * No DB => No SQL => NO SQL Injection
+* Fast: PHP native code, just a few HTTP request number
 * No login, no account 
 * No administration interface
 * Simple Markdown format posts
@@ -68,8 +69,10 @@ These instructions will get you a copy of the project up and running on your loc
 Instructions to follow:
 
 1. Copy all files to webserver
-2. Edit the file `system/config.php` with real data
+2. Edit the file `system/config.php` with real data \*
 3. Run your server and navigate to the project: http://yourdomain.com/
+
+\* Edit the blog name - and replace logo.svg, favicon.ico and apple-touch-icon.png files.
 
 ~~~
 Default test URL: (http://naturblog.brum/)
