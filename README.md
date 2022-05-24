@@ -74,9 +74,9 @@ Instructions to follow:
 
 \* Edit the blog name - and replace logo.svg, favicon.ico and apple-touch-icon.png files.
 
-~~~
-LIVE DEMO: (https://naturblog.csa.hu/)
-~~~
+## LIVE DEMO
+
+English Version: https://naturblog.csa.hu/
 
 ## MARKDOWN / POST CONTENT FILES
 
