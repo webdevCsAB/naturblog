@@ -30,6 +30,7 @@ We recommend that one does not look into Analytics. It's mostly fuel for ego.
 * Changing articles font size
 * Light mode / Dark mode
 * Responsive (mobile and tablet friendly) front-end
+* Printer friendly web pages
 * Calculating posts reading time
 * Show posts' creation time and author's nickname
 * Copying and/or Sharing page URL
