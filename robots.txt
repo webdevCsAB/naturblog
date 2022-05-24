@@ -25,7 +25,7 @@ Disallow: /.git/
 # Files
 Disallow: /error500.html
 Disallow: /error503.html
-Disallow: /error403
+Disallow: /error403.html
 Disallow: /error404
 
 # Paths (clean URLs)
