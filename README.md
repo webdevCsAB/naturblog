@@ -30,6 +30,7 @@ We recommend that one does not look into Analytics. It's mostly fuel for ego.
 * Changing articles font size
 * Light mode / Dark mode
 * Responsive (mobile and tablet friendly) front-end
+* Google Chrome Lighthouse Performance Test: 100%
 * Printer friendly web pages
 * Calculating posts reading time
 * Show posts' creation time and author's nickname
@@ -117,6 +118,10 @@ Make a new or edit an existing *.md file (in `model/posts/` folder) for blog pos
 ### Pagination Last Page
 
 ![Pagination First Page](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/nb-help-paginator-last-page.PNG)
+
+### Google Chrome Lighthouse Performance Test: 100%
+
+![Google Chrome Lighthouse Performance Test](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/lighthouse-performance-test-home-page-desktop.PNG)
 
 ## LICENSE
 
