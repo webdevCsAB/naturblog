@@ -294,11 +294,4 @@ function getTagCloud() {
   return $allTags;
 }
 
-
-// --------------------------------------------------
-// paginator 
-function pagination() {
-  return false;
-}
-
 ?>
