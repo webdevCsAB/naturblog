@@ -20,7 +20,7 @@ define("ENGINE_LAST_BUILD", "20220524");
       <a title="<?php echo txt('ttl_button_sitemap'); ?>" href="<?php echo BASE_URL; ?>sitemap.xml" target="_blank"><?php echo txt('lbl_button_sitemap'); ?></a>
     </span>
 
-    <small class="muted copy"><?php echo txt('txt_powered_by'); ?>&nbsp;<a href="#">NatúrBlog Engine</a>
+    <small class="muted copy"><?php echo txt('txt_powered_by'); ?>&nbsp;<a href="https://github.com/webdevCsAB/naturblog" target="_blank">NatúrBlog Engine</a>
     //&nbsp;Dev:&nbsp;CsAB
     <br><?php echo ENGINE_VERSION; ?>&nbsp;(Build:&nbsp;<?php echo ENGINE_LAST_BUILD; ?>)</small>
 
