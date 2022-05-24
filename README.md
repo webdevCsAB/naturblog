@@ -70,12 +70,12 @@ Instructions to follow:
 
 1. Copy all files to webserver
 2. Edit the file `system/config.php` with real data \*
-3. Run your server and navigate to the project: http://yourdomain.com/
+3. Run your server and navigate to the project: https://yourdomain.com/
 
 \* Edit the blog name - and replace logo.svg, favicon.ico and apple-touch-icon.png files.
 
 ~~~
-Default test URL: (http://naturblog.brum/)
+LIVE DEMO: (https://naturblog.csa.hu/)
 ~~~
 
 ## MARKDOWN / POST CONTENT FILES
