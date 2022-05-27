@@ -72,9 +72,11 @@ Instructions to follow:
 
 1. Copy all files to webserver
 2. Edit the file `system/config.php` with real data \*
-3. Run your server and navigate to the project: https://yourdomain.com/
+3. Edit `robots.txt` and `.htaccess` files with real data \*\*
+4. Run your server and navigate to the project: https://yourdomain.com/
 
 \* Edit the blog name - and replace logo.svg, favicon.ico and apple-touch-icon.png files.
+\*\* Modify the redirect rules of your domain in the .htaccess file, and edit your Sitemap path in the robots.txt 
 
 ## LIVE DEMO
 
