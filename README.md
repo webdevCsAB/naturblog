@@ -76,6 +76,7 @@ Instructions to follow:
 4. Run your server and navigate to the project: https://yourdomain.com/
 
 \* Edit the blog name - and replace logo.svg, favicon.ico and apple-touch-icon.png files.
+
 \*\* Modify the redirect rules of your domain in the .htaccess file, and edit your Sitemap path in the robots.txt 
 
 ## LIVE DEMO
