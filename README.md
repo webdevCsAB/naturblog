@@ -126,6 +126,10 @@ Make a new or edit an existing *.md file (in `model/posts/` folder) for blog pos
 
 ![Google Chrome Lighthouse Performance Test](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/lighthouse-performance-test-home-page-desktop.PNG)
 
+### Amount of carbon emits per page load: 1.71 mg CO<sub>2</sub>
+
+![Amount of carbon emits per page load](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/amount-of-carbon-emits-per-page-load.PNG)
+
 ## LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
