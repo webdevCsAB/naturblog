@@ -1,8 +1,8 @@
 <?php 
 
 // footer
-define("ENGINE_VERSION", "v1.0ß");
-define("ENGINE_LAST_BUILD", "20220524");
+define("ENGINE_VERSION", "v1.0.2ß");
+define("ENGINE_LAST_BUILD", "20230427");
 
 ?>
 <footer>
