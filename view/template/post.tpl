@@ -16,7 +16,7 @@
 <article>
 
 <div class="page-title">
-  <h2><?php echo $render["page"]["adult"].htmlspecialchars($render["page"]["title"]); ?></h2>
+  <h2 class="hyphens-auto"><?php echo fixWidowWord($render["page"]["adult"].htmlspecialchars($render["page"]["title"])); ?></h2>
 </div>
 
 <div class="meta">

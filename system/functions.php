@@ -340,4 +340,17 @@ function getReadTime($string = "") {
   return $est;
 }
 
+
+/**
+ * Fixes the word widow at the end of long texts. 
+ *         
+ * &param string $text 
+ * @return string
+ */
+function fixWidowWord($text) {
+  $pattern = "/ (?=[^ ]*$)/iu";
+  $text = preg_replace($pattern, "&nbsp;", $text);
+  return $text;
+}
+
 ?>

@@ -47,7 +47,7 @@
 <?php foreach($render["page"]["post_items"] as $value): ?>
 
 <div class="post">
-  <h2><a href="<?php echo BASE_URL; ?>posts/<?php echo $value['slug']; ?>" title="<?php echo htmlspecialchars($value['title']); ?>"><?php echo $value['adult'].htmlspecialchars($value['title']); ?></a></h2>
+  <h2 class="hyphens-auto"><a href="<?php echo BASE_URL; ?>posts/<?php echo $value['slug']; ?>" title="<?php echo htmlspecialchars($value['title']); ?>"><?php echo fixWidowWord($value['adult'].htmlspecialchars($value['title'])); ?></a></h2>
 
   <p>
   <?php echo relativeTime($value["created"]); ?> &bull;

@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /*
-* CSS Document - Updated: 2022.05.24.
+* CSS Document - Updated: 2023.04.27.
 * MAIN CSS
-* Copyright (c) 2022 NATURBLOG ENGINE
+* Copyright (c) 2022-2023 NATURBLOG ENGINE
 * All rights reserved.
 * Design/Webdesign: CsAB
 * Use this: https://csscompressor.com 
@@ -311,6 +311,10 @@ article .page-title h2 {
 	margin: 10px 0;
 	padding-bottom: 1rem;
 	border-bottom: 1px dotted var(--light-h-rule);
+}
+
+@media (max-width:480px) {
+  .hyphens-auto { hyphens: auto; }
 }
 
 .meta>div {
