@@ -12,11 +12,10 @@ Petty crook Ugarte boasts to Rick of "letters of transit" obtained by murdering 
 
 Then the reason for Rick's bitterness—former lover Ilsa Lund—enters his establishment. Spotting Rick's friend and house pianist, Sam, Ilsa asks him to play "As Time Goes By." Rick storms over, furious that Sam disobeyed his order never to perform that song, and is stunned to see Ilsa. She is accompanied by her husband, Victor Laszlo, a renowned fugitive Czech Resistance leader. They need the letters to escape to America to continue his work. German Major Strasser has come to Casablanca to see that Laszlo fails.
 
-[![Humphrey Bogart stands outside Rick's Cafe in a scene from the film 'Casablanca', 1942. (Photo by Warner Brothers/Getty Images)](http://media.gettyimages.com/photos/humphrey-bogart-stands-outside-ricks-cafe-in-a-scene-from-the-film-picture-id120428894)](http://media.gettyimages.com/photos/humphrey-bogart-stands-outside-ricks-cafe-in-a-scene-from-the-film-picture-id120428894)
+[![Humphrey Bogart stands outside Rick's Cafe in a scene from the film 'Casablanca', 1942. (Photo by Warner Brothers/Getty Images)](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/gettyimages-3243492-612x612.webp)](https://raw.githubusercontent.com/webdevCsAB/naturblog/main/help/gettyimages-120428894-2048x2048.webp)
 
 *Humphrey Bogart stands outside Rick's Cafe in a scene from the film 'Casablanca', 1942.*
-<br>*(Photo by Warner Brothers/Getty Images)* 
-<br><br>
+<br><small>*Photo by Warner Brothers/Getty Images | [#120428894](https://www.gettyimages.com/detail/news-photo/humphrey-bogart-stands-outside-ricks-cafe-in-a-scene-from-news-photo/120428894) | January 01, 1942*</small>
 
 When Laszlo makes inquiries, Ferrari, a major underworld figure and Rick's friendly business rival, divulges his suspicion that Rick has the letters. Privately, Rick refuses to sell at any price, telling Laszlo to ask his wife the reason. They are interrupted when Strasser leads a group of officers in singing "Die Wacht am Rhein." Laszlo orders the house band to play "La Marseillaise." When the band looks to Rick, he nods his head. Laszlo starts singing, alone at first, then patriotic fervor grips the crowd and everyone joins in, drowning out the Germans. Strasser has Renault close the club. Black-and-white film screenshot of a man and woman as seen from the shoulders up. The two are close to each other as if about to kiss.
 
