@@ -25,6 +25,7 @@ We recommend that one does not look into Analytics. It's mostly fuel for ego.
 * Multi-language user interface
   - for now only English, German and Hungarian
 * Listing, separating (pagination) and filtering (by tags) posts
+* Pager (previous and next post) [NEW FEATURE!]
 * RSS, Sitemap
 * Tags, Tag Cloud
 * Changing articles font size

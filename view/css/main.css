@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /*
-* CSS Document - Updated: 2023.04.27.
+* CSS Document - Updated: 2025.05.16.
 * MAIN CSS
-* Copyright (c) 2022-2023 NATURBLOG ENGINE
+* Copyright (c) 2022-2025 NATURBLOG ENGINE
 * All rights reserved.
 * Design/Webdesign: CsAB
 * Use this: https://csscompressor.com 
@@ -201,6 +201,9 @@ a.btn {
 	margin: 0.5rem 0.1rem;
 	display: inline-block;
 	font-size: 15px;
+}
+a.btn.disabled {
+  opacity: 0.25;
 }
 
 ol,
@@ -405,6 +408,28 @@ a.btn:focus {
 .highlighted a:hover,
 .highlighted a:focus {
 	background: var(--light-highlight-link-bg-hover);
+}
+
+/* pager */
+.pager {
+  padding-left: 0;
+  margin: 1em 0;
+  text-align: center;
+  list-style: none;
+}
+.pager li { 
+  display: inline;
+}
+.pager .previous > a {
+  float: left;
+}
+.pager .next > a {
+  float: right;
+}
+.pager::after {
+  clear: both;
+  display: table;
+  content: " ";
 }
 
 /* pagination */

@@ -28,6 +28,8 @@
 
 <?php echo $render["page"]["content"]; ?>
 
+<?php include_once(BASE_DIR.TEMPLATE_DIR."includes/pager.tpl"); ?>
+
 <?php include_once(BASE_DIR.TEMPLATE_DIR."includes/comments.tpl"); ?>
 
 </article>

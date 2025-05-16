@@ -294,4 +294,45 @@ function getTagCloud() {
   return $allTags;
 }
 
+/**
+ * Get previous and next post (URL and title)
+  
+ *    
+ * &param string $slug (def: true)
+ * @return array() or false
+ */
+function getPager($slug) {
+  if(empty($slug)) {
+    return false;
+  }
+  $prevKey = false;
+  $nextKey = false;
+  $postData = readAllPosts();
+  $keys = array_keys($postData);
+  $index = array_search($slug, $keys, true);
+  if($index === false) {
+    return false;
+  }
+  $actual = $postData[$slug];
+  if($index > 0) {
+    $prevKey = $keys[$index - 1];
+  }
+  if ($index < count($keys) - 1) {
+    $nextKey = $keys[$index + 1];
+  }
+  $ret = array();
+  $ret["prev"] = array();
+  $ret["next"] = array();
+  if($prevKey) {
+    $ret["next"]["slug"] = $postData[$prevKey]["slug"];
+    $ret["next"]["title"] = $postData[$prevKey]["title"];
+  }
+  if($nextKey) {
+    $ret["prev"]["slug"] = $postData[$nextKey]["slug"];
+    $ret["prev"]["title"] = $postData[$nextKey]["title"];
+  }
+  //var_dump($ret);
+  return $ret;
+}
+
 ?>

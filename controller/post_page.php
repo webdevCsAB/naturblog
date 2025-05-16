@@ -42,6 +42,7 @@ $render["page"]["created"] = $postData["created"];
 $render["page"]["markdown"] = $postData["markdown"];
 $render["page"]["content"] = $postData["content"];
 $render["page"]["adult"] = $postData["adult"];
+$render["page"]["pager"] = getPager($pageSlug);
 
 $reading_time = getReadTime($render["page"]["content"]);
 
